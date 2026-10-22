@@ -901,6 +901,7 @@ process_material = ExtResource("42_d25kw")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1317228913]
 position = Vector2(0, -112.37)
+monitorable = false
 script = ExtResource("43_d25kw")
 audio_effects = Array[AudioEffect]([SubResource("AudioEffectDelay_sqhvk")])
 

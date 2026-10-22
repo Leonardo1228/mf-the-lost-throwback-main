@@ -711,6 +711,7 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Area2D" type="Area2D" parent="." unique_id=300783790]
 position = Vector2(0, -176)
+monitorable = false
 script = ExtResource("34_t1muo")
 audio_effects = Array[AudioEffect]([SubResource("AudioEffectDelay_sqhvk")])
 
