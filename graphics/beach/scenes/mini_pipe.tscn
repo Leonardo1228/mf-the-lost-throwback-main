@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b3klkkslkv78k"]
+
+[ext_resource type="Texture2D" uid="uid://cidai63w3hjl2" path="res://graphics/beach/mini_pipe.png" id="1_bm74d"]
+
+[node name="MiniPipe" type="Sprite2D" unique_id=1101181268]
+texture = ExtResource("1_bm74d")

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b6q7rhffyxyxd"]
+
+[ext_resource type="Texture2D" uid="uid://bg56bc7b4m0ai" path="res://graphics/beach/sand_castle.png" id="1_58ex6"]
+
+[node name="SandCastle" type="Sprite2D" unique_id=1515498032]
+texture = ExtResource("1_58ex6")

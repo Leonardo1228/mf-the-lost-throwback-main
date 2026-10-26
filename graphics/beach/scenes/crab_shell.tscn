@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://qlyy0yjxivjo"]
+
+[ext_resource type="Texture2D" uid="uid://dr5irq3sugyae" path="res://graphics/beach/crab_shell.png" id="1_n0bid"]
+
+[node name="CrabShell" type="Sprite2D" unique_id=369230403]
+texture = ExtResource("1_n0bid")

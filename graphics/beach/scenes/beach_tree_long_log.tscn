@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bnn27040l48j3"]
+
+[ext_resource type="Texture2D" uid="uid://c124eo3efp1o4" path="res://graphics/beach/beach_tree_long_log.png" id="1_f0bid"]
+
+[node name="BeachTreeLongLog" type="Sprite2D" unique_id=1542473910]
+texture = ExtResource("1_f0bid")

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://chxg2n3bfrqdh"]
+
+[ext_resource type="Texture2D" uid="uid://ddjrol2wcxxug" path="res://graphics/beach/beach_tree_long_end.png" id="1_venu4"]
+
+[node name="BeachTreeLongEnd" type="Sprite2D" unique_id=268097492]
+position = Vector2(0, -16)
+texture = ExtResource("1_venu4")
