@@ -223,10 +223,8 @@ script = ExtResource("7_yq1qg")
 metadata/_edit_lock_ = true
 
 [node name="CameraArea" parent="." unique_id=1790766850 instance=ExtResource("8_wijix")]
-offset_left = -8.0
-offset_top = 8.0
-offset_right = 11000.0
-offset_bottom = 488.0
+offset_right = 11008.0
+offset_bottom = 480.0
 
 [node name="BowserTrigger" parent="." unique_id=2081189954 node_paths=PackedStringArray("trigger_bowser") instance=ExtResource("26_iudy5")]
 position = Vector2(9899.001, 51.000004)
