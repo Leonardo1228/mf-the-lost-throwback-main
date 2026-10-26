@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://0um46wesno0v"]
+
+[ext_resource type="Script" uid="uid://cway2863r5lkh" path="res://engine/objects/enemies/spikes/spike.gd" id="1_x0p5c"]
+[ext_resource type="Texture2D" uid="uid://pujov6sbhglg" path="res://engine/objects/enemies/spikes/textures/spike_hard_block.png" id="2_0g3da"]
+
+[node name="SpikeHardBlock" type="Area2D" unique_id=1819972063]
+script = ExtResource("1_x0p5c")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1328174500]
+visible = false
+position = Vector2(0, 16)
+polygon = PackedVector2Array(0, -32, 16, 0, -16, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1615849177]
+texture = ExtResource("2_0g3da")

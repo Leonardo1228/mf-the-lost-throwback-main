@@ -70,6 +70,12 @@ metadata/_snap_enabled = true
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_87k04"]
 size = Vector2(2005.5, 568)
 
+[sub_resource type="Resource" id="Resource_1eg2x"]
+resource_local_to_scene = true
+script = ExtResource("28_yxi4t")
+creation_nodepack = ExtResource("27_teb2u")
+trans_inheritances = 7
+
 [sub_resource type="Resource" id="Resource_vgkww"]
 resource_local_to_scene = true
 script = ExtResource("28_yxi4t")
@@ -85,12 +91,6 @@ trans_inheritances = 7
 [sub_resource type="Resource" id="Resource_6adjx"]
 resource_local_to_scene = true
 script = ExtResource("28_yxi4t")
-creation_nodepack = ExtResource("27_teb2u")
-trans_inheritances = 7
-
-[sub_resource type="Resource" id="Resource_dt6bx"]
-resource_local_to_scene = true
-script = ExtResource("28_yxi4t")
 creation_fallback_node = ExtResource("30_ivcfo")
 creation_nodepack = ExtResource("31_13cbd")
 trans_inheritances = 7
@@ -104,6 +104,12 @@ scenes/2/scene = ExtResource("32_kxy0e")
 tile_size = Vector2i(32, 32)
 sources/0 = SubResource("TileSetScenesCollectionSource_ktgb6")
 
+[sub_resource type="Resource" id="Resource_dt6bx"]
+resource_local_to_scene = true
+script = ExtResource("28_yxi4t")
+creation_nodepack = ExtResource("27_teb2u")
+trans_inheritances = 7
+
 [sub_resource type="Resource" id="Resource_ktgb6"]
 resource_local_to_scene = true
 script = ExtResource("28_yxi4t")
@@ -113,26 +119,27 @@ trans_inheritances = 7
 [sub_resource type="Resource" id="Resource_2hyvf"]
 resource_local_to_scene = true
 script = ExtResource("28_yxi4t")
-creation_nodepack = ExtResource("27_teb2u")
+creation_fallback_node = ExtResource("30_ivcfo")
+creation_nodepack = ExtResource("31_13cbd")
 trans_inheritances = 7
 
 [sub_resource type="Resource" id="Resource_fxr3r"]
 resource_local_to_scene = true
 script = ExtResource("28_yxi4t")
-creation_fallback_node = ExtResource("30_ivcfo")
-creation_nodepack = ExtResource("31_13cbd")
+creation_nodepack = ExtResource("27_teb2u")
 trans_inheritances = 7
 
 [sub_resource type="Resource" id="Resource_3u5ic"]
 resource_local_to_scene = true
 script = ExtResource("28_yxi4t")
-creation_nodepack = ExtResource("27_teb2u")
+creation_nodepack = ExtResource("37_dya44")
 trans_inheritances = 7
 
 [sub_resource type="Resource" id="Resource_wedw8"]
 resource_local_to_scene = true
 script = ExtResource("28_yxi4t")
-creation_nodepack = ExtResource("37_dya44")
+creation_fallback_node = ExtResource("30_ivcfo")
+creation_nodepack = ExtResource("31_13cbd")
 trans_inheritances = 7
 
 [sub_resource type="Resource" id="Resource_0wnpf"]
@@ -145,8 +152,7 @@ trans_inheritances = 7
 [sub_resource type="Resource" id="Resource_eqge7"]
 resource_local_to_scene = true
 script = ExtResource("28_yxi4t")
-creation_fallback_node = ExtResource("30_ivcfo")
-creation_nodepack = ExtResource("31_13cbd")
+creation_nodepack = ExtResource("27_teb2u")
 trans_inheritances = 7
 
 [sub_resource type="Resource" id="Resource_itwal"]
@@ -180,12 +186,6 @@ creation_nodepack = ExtResource("27_teb2u")
 trans_inheritances = 7
 
 [sub_resource type="Resource" id="Resource_hgnrl"]
-resource_local_to_scene = true
-script = ExtResource("28_yxi4t")
-creation_nodepack = ExtResource("27_teb2u")
-trans_inheritances = 7
-
-[sub_resource type="Resource" id="Resource_pudel"]
 resource_local_to_scene = true
 script = ExtResource("28_yxi4t")
 creation_nodepack = ExtResource("27_teb2u")
@@ -587,7 +587,7 @@ position = Vector2(15024, 192)
 position = Vector2(15184, 240)
 
 [node name="JawsHeadClone20" parent="Enemies" unique_id=1223876164 instance=ExtResource("23_j7vev")]
-position = Vector2(15248, 240)
+position = Vector2(15216, 240)
 
 [node name="JawsHeadClone21" parent="Enemies" unique_id=598102464 instance=ExtResource("23_j7vev")]
 position = Vector2(15344, 240)
@@ -608,19 +608,19 @@ position = Vector2(2704, 272)
 
 [node name="QuestionBlock" parent="Bonus" unique_id=1387715178 instance=ExtResource("26_pft6k")]
 position = Vector2(2672, 272)
-result = SubResource("Resource_vgkww")
+result = SubResource("Resource_1eg2x")
 
 [node name="QuestionBlock2" parent="Bonus" unique_id=955769372 instance=ExtResource("26_pft6k")]
 position = Vector2(2640, 272)
-result = SubResource("Resource_bsi5s")
+result = SubResource("Resource_vgkww")
 
 [node name="QuestionBlock3" parent="Bonus" unique_id=1182804262 instance=ExtResource("26_pft6k")]
 position = Vector2(2832, 272)
-result = SubResource("Resource_6adjx")
+result = SubResource("Resource_bsi5s")
 
 [node name="QuestionBlockFireFlower" parent="Bonus" unique_id=1928634976 instance=ExtResource("29_efpf1")]
 position = Vector2(2864, 272)
-result = SubResource("Resource_dt6bx")
+result = SubResource("Resource_6adjx")
 
 [node name="Brick4" parent="Bonus" unique_id=1405079624 instance=ExtResource("25_dya44")]
 position = Vector2(2896, 272)
@@ -649,23 +649,23 @@ position = Vector2(5264, 176)
 
 [node name="QuestionBlock4" parent="Bonus" unique_id=1890945714 instance=ExtResource("26_pft6k")]
 position = Vector2(5936, 240)
-result = SubResource("Resource_ktgb6")
+result = SubResource("Resource_dt6bx")
 
 [node name="QuestionBlock5" parent="Bonus" unique_id=466550677 instance=ExtResource("26_pft6k")]
 position = Vector2(5968, 240)
-result = SubResource("Resource_2hyvf")
+result = SubResource("Resource_ktgb6")
 
 [node name="QuestionBlockFireFlower2" parent="Bonus" unique_id=391650447 instance=ExtResource("29_efpf1")]
 position = Vector2(6032, 240)
-result = SubResource("Resource_fxr3r")
+result = SubResource("Resource_2hyvf")
 
 [node name="QuestionBlock6" parent="Bonus" unique_id=409544806 instance=ExtResource("26_pft6k")]
 position = Vector2(6000, 240)
-result = SubResource("Resource_3u5ic")
+result = SubResource("Resource_fxr3r")
 
 [node name="QuestionBlockLife" parent="Bonus" unique_id=299248554 instance=ExtResource("36_3yptl")]
 position = Vector2(10480, 112)
-result = SubResource("Resource_wedw8")
+result = SubResource("Resource_3u5ic")
 initially_visible_and_solid = false
 
 [node name="Checkpoint" parent="Bonus" unique_id=1170161289 instance=ExtResource("38_pft6k")]
@@ -682,7 +682,7 @@ position = Vector2(9584, 304)
 
 [node name="QuestionBlockFireFlower3" parent="Bonus" unique_id=116471388 instance=ExtResource("29_efpf1")]
 position = Vector2(10544, 208)
-result = SubResource("Resource_0wnpf")
+result = SubResource("Resource_wedw8")
 
 [node name="Brick14" parent="Bonus" unique_id=1829737214 instance=ExtResource("25_dya44")]
 position = Vector2(7504, 336)
@@ -758,35 +758,35 @@ position = Vector2(15024, 240)
 
 [node name="QuestionBlockFireFlower4" parent="Bonus" unique_id=47548237 instance=ExtResource("29_efpf1")]
 position = Vector2(11984, 272)
-result = SubResource("Resource_eqge7")
+result = SubResource("Resource_0wnpf")
 
 [node name="QuestionBlock7" parent="Bonus" unique_id=1916541406 instance=ExtResource("26_pft6k")]
 position = Vector2(12016, 272)
-result = SubResource("Resource_itwal")
+result = SubResource("Resource_eqge7")
 
 [node name="QuestionBlock8" parent="Bonus" unique_id=302949733 instance=ExtResource("26_pft6k")]
 position = Vector2(12048, 272)
-result = SubResource("Resource_000mi")
+result = SubResource("Resource_itwal")
 
 [node name="QuestionBlock9" parent="Bonus" unique_id=843406415 instance=ExtResource("26_pft6k")]
 position = Vector2(12080, 272)
-result = SubResource("Resource_3uink")
+result = SubResource("Resource_000mi")
 
 [node name="QuestionBlock10" parent="Bonus" unique_id=2131290559 instance=ExtResource("26_pft6k")]
 position = Vector2(12080, 112)
-result = SubResource("Resource_gwim4")
+result = SubResource("Resource_3uink")
 
 [node name="QuestionBlock11" parent="Bonus" unique_id=70914540 instance=ExtResource("26_pft6k")]
 position = Vector2(12048, 112)
-result = SubResource("Resource_2kjd2")
+result = SubResource("Resource_gwim4")
 
 [node name="QuestionBlock12" parent="Bonus" unique_id=219571107 instance=ExtResource("26_pft6k")]
 position = Vector2(12016, 112)
-result = SubResource("Resource_hgnrl")
+result = SubResource("Resource_2kjd2")
 
 [node name="QuestionBlock13" parent="Bonus" unique_id=391555211 instance=ExtResource("26_pft6k")]
 position = Vector2(11984, 112)
-result = SubResource("Resource_pudel")
+result = SubResource("Resource_hgnrl")
 
 [node name="FinishLine" parent="Bonus" unique_id=633176209 instance=ExtResource("41_ivcfo")]
 position = Vector2(15557, 416)

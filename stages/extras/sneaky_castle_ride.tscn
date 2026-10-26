@@ -51,14 +51,14 @@ loop_offset = 20.35
 
 [sub_resource type="AudioStreamWAV" id="AudioStreamWAV_cwuxt"]
 
-[sub_resource type="Resource" id="Resource_cwuxt"]
+[sub_resource type="Resource" id="Resource_i0hqe"]
 resource_local_to_scene = true
 script = ExtResource("18_1d8sf")
 creation_fallback_node = ExtResource("16_8kuip")
 creation_nodepack = ExtResource("17_uij6n")
 trans_inheritances = 7
 
-[sub_resource type="Resource" id="Resource_3ynee"]
+[sub_resource type="Resource" id="Resource_duunp"]
 resource_local_to_scene = true
 script = ExtResource("18_1d8sf")
 creation_fallback_node = ExtResource("16_8kuip")
@@ -339,7 +339,7 @@ position = Vector2(8944, 768)
 
 [node name="QuestionBlock" parent="Bonus" unique_id=1851736272 instance=ExtResource("15_07ap4")]
 position = Vector2(1424, 112)
-result = SubResource("Resource_cwuxt")
+result = SubResource("Resource_i0hqe")
 
 [node name="Coin" parent="Bonus" unique_id=829951400 instance=ExtResource("19_j2eam")]
 position = Vector2(2128, 48)
@@ -373,7 +373,7 @@ position = Vector2(4240, 176)
 
 [node name="QuestionBlock2" parent="Bonus" unique_id=1408685721 instance=ExtResource("15_07ap4")]
 position = Vector2(3728, 48)
-result = SubResource("Resource_3ynee")
+result = SubResource("Resource_duunp")
 
 [node name="FinishLine" parent="Bonus" unique_id=633176209 instance=ExtResource("20_reigw")]
 position = Vector2(9472, 320)
@@ -705,18 +705,18 @@ modulate = Color(0.011764706, 0.011764706, 0.011764706, 0.8039216)
 z_index = 10
 
 [node name="Sprite2D" type="Sprite2D" parent="Darkness" unique_id=507804568]
-position = Vector2(1856, 224.00002)
-scale = Vector2(10.000001, 7.9999995)
+position = Vector2(1856, 256)
+scale = Vector2(10.000001, 8.999999)
 texture = SubResource("GradientTexture2D_87k04")
 
 [node name="Sprite2D2" type="Sprite2D" parent="Darkness" unique_id=729051322]
-position = Vector2(5247.9995, 223.99998)
-scale = Vector2(96, 7.9999995)
+position = Vector2(5247.9995, 256.00003)
+scale = Vector2(96, 9.000001)
 texture = SubResource("GradientTexture2D_sqhvk")
 
 [node name="Sprite2D3" type="Sprite2D" parent="Darkness" unique_id=39260073]
-position = Vector2(8640, 223.99998)
-scale = Vector2(10, 7.9999995)
+position = Vector2(8640, 256.00003)
+scale = Vector2(10, 9)
 texture = SubResource("GradientTexture2D_t3c5x")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=2059841557]

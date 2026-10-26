@@ -529,6 +529,11 @@ position = Vector2(1792, 304)
 warp_to_scene = "uid://c2uhpqnyn3cim"
 use_circle_transition = true
 
+[node name="PipeIn4" parent="." unique_id=2105007812 instance=ExtResource("27_n2m4a")]
+position = Vector2(3040, 176)
+warp_to_scene = "uid://dnulac5lfotg3"
+use_circle_transition = true
+
 [node name="AchievementsTitle" parent="." unique_id=7904925 instance=ExtResource("16_a0ufs")]
 offset_left = 2048.0
 offset_top = 19.0
