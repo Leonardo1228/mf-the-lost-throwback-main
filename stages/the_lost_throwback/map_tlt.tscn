@@ -267,7 +267,6 @@ metadata/_custom_type_script = "uid://bgm1hm3784ld7"
 [node name="MapPlayerMarker27" type="Marker2D" parent="MarkerSpace" unique_id=819234655]
 position = Vector2(2085, 384)
 script = ExtResource("17_4o3t7")
-level = "uid://dilg01grwov0n"
 metadata/_custom_type_script = "uid://bgm1hm3784ld7"
 
 [node name="MapPlayerMarker28" type="Marker2D" parent="MarkerSpace" unique_id=1429684956]
