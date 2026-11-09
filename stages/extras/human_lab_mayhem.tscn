@@ -514,7 +514,7 @@ position = Vector2(14112, 400)
 position = Vector2(14577, 304)
 
 [node name="JawsHeadClone17" parent="Enemies" unique_id=626709891 instance=ExtResource("23_j7vev")]
-position = Vector2(14736, 368)
+position = Vector2(14768, 368)
 
 [node name="JawsHeadClone18" parent="Enemies" unique_id=440740317 instance=ExtResource("23_j7vev")]
 position = Vector2(15088, 368)
@@ -572,13 +572,13 @@ position = Vector2(14032, 384)
 position = Vector2(12555, 64)
 
 [node name="WerewolfClone8" parent="Enemies" unique_id=1058695533 instance=ExtResource("28_pft6k")]
-position = Vector2(14896, 352)
+position = Vector2(15048, 352)
 
 [node name="WerewolfClone9" parent="Enemies" unique_id=1119801277 instance=ExtResource("28_pft6k")]
-position = Vector2(15152, 160)
+position = Vector2(15168, 160)
 
 [node name="CoderClone5" parent="Enemies" unique_id=1283108148 instance=ExtResource("20_40h7l")]
-position = Vector2(15024, 192)
+position = Vector2(14976, 192)
 
 [node name="JawsHeadClone19" parent="Enemies" unique_id=2071484010 instance=ExtResource("23_j7vev")]
 position = Vector2(15184, 240)
